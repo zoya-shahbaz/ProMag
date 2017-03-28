@@ -110,7 +110,6 @@ public class Chat_Room  extends AppCompatActivity{
             chat_msg = (String) ((DataSnapshot)i.next()).getValue();
             chat_user_name = (String) ((DataSnapshot)i.next()).getValue();
             chat_conversation.append(chat_user_name +" : "+chat_msg +" \n\n\n");
-            chat_conversation.setBackgroundColor(Color.parseColor("#ffffff"));
 
 
         }
